@@ -84,3 +84,6 @@ from simulation_2MQRM import DoubleMultilevel
 
 ## Citation / license
 
+
+
+(code and project files cleaned up with ChatGPT for enhanced readability)
