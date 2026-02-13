@@ -1,6 +1,6 @@
 # Project overview
 
-This repository contains code and notebooks for numerical/simulation work on a two-multilevel-atom quantum Rabi–type model and QFI (quantum Fisher information) heatmap generation/processing.
+This repository contains code and notebooks for numerical/simulation work on a two-multilevel-atom quantum Rabi–type model and QFI (quantum Fisher information) heatmap generation/processing, used in the paper 'Equilibrium thermometry in the multilevel quantum Rabi model' by Tabitha Doicin, Luis A. Correa, Jonas Glatthard, Andrew D. Armour, Gerardo Adesso.
 
 The repo is organised as **three largely independent folders**, each with its **own** `requirements.txt` (kept folder-specific on purpose).
 
