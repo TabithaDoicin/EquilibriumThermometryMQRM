@@ -65,9 +65,9 @@ Key run parameters (defined near the top of `HeatmapGenerator.py`) include:
 - `theta` (cutoff)
 - `Individuallynormalised` (normalisation choice)
 
-### Process/plot data
+### Process data
 
-Open the notebook in `QFIHeatmapProcessing/processing.ipynb` (Jupyter, VS Code, etc.) after installing that folder’s requirements.
+Open the notebook and generated files in `QFIHeatmapProcessing/processing.ipynb` (Jupyter, VS Code, etc.) after installing that folder’s requirements.
 
 ### Run the simulation utilities
 
@@ -82,12 +82,5 @@ from simulation_2MQRM import DoubleMultilevel
 - Several workflows rely on randomness (`numpy.random`, Python `random`). If you need deterministic results, set seeds at the start of your script/notebook.
 - Parallel generation uses `ProcessPoolExecutor`, so each worker has its own RNG state unless you explicitly manage seeding.
 
-## What was changed for readability
-
-Changes were intentionally minimal:
-- `QFIHeatmapGenerator/HeatmapGenerator.py`: import cleanup, small docstrings, and moved informational prints into `main()` to avoid side effects on import.
-- No algorithmic changes were made.
-
 ## Citation / license
 
-If this code accompanies a paper, add your preferred citation format (BibTeX) here and include a LICENSE file before public release.
